@@ -8,11 +8,7 @@
   list-style: none;
   scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif !important;
-
-
-
 }
-
 
 #navbar {
   background: #070606;
@@ -62,6 +58,9 @@
   background: orange;
   color: white;
   border: none;
+}
+.navbar-brand{
+  font-weight: bolder;
 }
 
 
@@ -515,9 +514,42 @@ button,
 textarea {
   padding: 1em;
 }
+.form-control{
+  width: auto;
+  height: 48px;
+  border-radius: 8px;
+}
 
-@media (max-width:765px) {
+@media  screen and (max-width: 768px) {
+
+  .img-fluid {
+    max-width: 90%;
+    /* height: auto; */
+}
   .row-mid img {
      display: block;
   }
+  .mid-row img{
+    display: block;
+  }
+  .form{
+    display: block;
+    width: 100px;
+  }
+  .row{
+    display: block;
+  }
+  .navbar-nav{
+    display: block;
+    background-color: rgb(245, 240, 240);
+    color: rgb(17, 10, 10);
+  }
+  .column img{
+    display: block;
+    width: 250px;
+  }
+  .Subscribe{
+    width: 100%;
+  }
+  
 }
