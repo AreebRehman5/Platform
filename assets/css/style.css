@@ -532,9 +532,10 @@ textarea {
   .mid-row img{
     display: block;
   }
-  .form{
+  .form-control{
     display: block;
-    width: 100px;
+    width: 100%;
+    
   }
   .row{
     display: block;
@@ -550,6 +551,11 @@ textarea {
   }
   .Subscribe{
     width: 100%;
+  }
+  .col-4{
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
   }
   
 }
